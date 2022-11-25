@@ -1,0 +1,20 @@
+.contacts {
+	padding-top: 120px;
+	padding-bottom: 90px;
+
+	&__text,
+	&__social {
+		margin-top: 20px;
+		text-align: center;
+	}
+	&__link {
+		margin-right: 25px;
+		img {
+			min-width: 30px;
+			min-height: 30px;
+		}
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
