@@ -1,25 +1,25 @@
 .promo {
 	min-height: 100vh;
 	position: relative;
-	background: url("../img/main_bg.jpg") no-repeat 50% / cover;
-	padding-top: 200px;
-	padding-left: 560px;
+	background: url("../img/main_bg.jpg") no-repeat 30% / cover;
+	&__wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+	}
 	&__title {
-		width: 565px;
-		margin-top: 10px;
-		margin-left: 260px;
+		width: 545px;
 		text-align: end;
+		margin-top: 15px;
 	}
 	&__subtitle {
-		margin-left: 260px;
+		margin-top: 150px;
 		position: relative;
-		padding-left: 10px;
 		z-index: 2;
 		@include before_circle_main;
 	}
 	&__btns {
-		margin-top: 45px;
-		margin-left: 575px;
+		margin-top: 65px;
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
@@ -34,10 +34,10 @@
 		}
 	}
 	.social {
-		position: absolute;
+		position: fixed;
 		width: 180px;
 		bottom: 50px;
-		left: 90%;
+		left: 83%;
 		transform: translateX(-50%);
 		display: flex;
 		justify-content: space-between;
