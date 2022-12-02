@@ -1,9 +1,13 @@
+@media (max-width: 1439px) {
+	.social {
+		&__link {
+			display: none;
+		}
+	}
+}
 @media (max-width: 1200px) {
 	.container {
 		max-width: 960px;
-	}
-	.social__link {
-		display: none;
 	}
 	.title {
 		&_fz48 {
@@ -59,7 +63,7 @@
 		}
 	}
 	.promo {
-		background: url("../img/main_bg.jpg") no-repeat 60% / cover;
+		background: url("../img/main_bg.jpg") no-repeat 85% / cover;
 	}
 	.divider {
 		margin: 15px auto 0 auto;
@@ -110,7 +114,7 @@
 		}
 	}
 	.promo {
-		background: url("../img/main_bg.jpg") no-repeat 67% / cover;
+		background: url("../img/main_bg.jpg") no-repeat 72% / cover;
 		&__title {
 			width: 335px;
 		}
@@ -176,7 +180,7 @@
 		}
 	}
 	.promo {
-		background: url("../img/main_bg.jpg") no-repeat 65% / cover;
+		background: url("../img/main_bg.jpg") no-repeat 68% / cover;
 		&__btns {
 			margin-top: 30px;
 		}
